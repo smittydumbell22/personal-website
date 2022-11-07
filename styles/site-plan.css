@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #0E3533;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Lobster", Arial, sans-serif;;
+  --heading-font: "Lobster Two", Arial, sans-serif;;
   --paragraph-font: "Merriweather", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -172,4 +172,13 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+
+/* Gallery */
+
+img {
+  /* float: left; */
+  width:  200px;
+  height: 200px;
+  object-fit: cover;
 }
