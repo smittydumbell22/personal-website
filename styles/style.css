@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Merriweather&display=swap');
+
 h1 {
     color:rgb(247, 247, 179);
 }
@@ -89,6 +91,7 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+    font-family: 'Merriweather', Arial, sans-serif;
 }
 
 #hero-msg h4 {
@@ -109,7 +112,7 @@ nav a {
 
 .home-title {
     color: #294C60;
-    font-family: "Rubic Dirt", Arial, sans-serif;
+    font-family: "Merriweather", Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -159,7 +162,7 @@ nav a:hover {
 
 .msg h2 {
     color: #001B2E;
-    font-family: "Rubic Dirt", Arial, sans-serif;
+    font-family: "Merriweather", Arial, sans-serif;
 }
 
 #background {
@@ -429,6 +432,7 @@ button {
     nav a {
         display: block;
         padding: 15px;
+       
     }
 
     #hero {
@@ -437,15 +441,19 @@ button {
 
     #hero-msg {
         margin-top: 0;
+        font-family: "Merriweather", Arial, sans-serif ;
     }
 
     #hero-msg h4 {
         display: none;
+        font-family: "Merriweather", Arial, sans-serif ;
     }
 
     .home-title {
-        font-size: 25px;
-        color: #0E3533;
+        color:#294C60;
+        font-family: "Lobster Two", Arial, sans-serif ;
+        font-size: 2em;
+        margin-top: 10px;
     }
 
     .rivers-card,
@@ -470,3 +478,11 @@ button {
         margin-top: 25px;
     }
 }
+
+.home-title {
+    color:#294C60;
+    font-family: "Lobster Two", Arial, sans-serif ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
